@@ -17,9 +17,10 @@ import dh.mitm as dh_mitm
 import dh.additive as dh_additive
 
 import hash.hmac as hmac
-
 import hash.length_extension as hash_length_extension
+
+import ec.digestive as ec_digestive
 
 
 if __name__ == "__main__":
-    hash_length_extension.run()
+    ec_digestive.run()

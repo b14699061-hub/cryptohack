@@ -22,6 +22,8 @@ import hash.length_extension as hash_length_extension
 import ec.digestive as ec_digestive
 import ec.curve_ball as ec_curve_ball
 
+import tls.authenticated_handshakes as tls_authenticated_handshakes 
+
 
 if __name__ == "__main__":
-    ec_curve_ball.run()
+    tls_authenticated_handshakes.run()

@@ -20,7 +20,8 @@ import hash.hmac as hmac
 import hash.length_extension as hash_length_extension
 
 import ec.digestive as ec_digestive
+import ec.curve_ball as ec_curve_ball
 
 
 if __name__ == "__main__":
-    ec_digestive.run()
+    ec_curve_ball.run()
